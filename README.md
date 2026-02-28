@@ -19,7 +19,7 @@ Below are the 20 tree species included in this project. Click on each species to
 <details>
 <summary>🌲 Pine Tree</summary>
 
-<img src="path/to/pine_tree.jpg" alt="Pine Tree" width="200px"/>  
+<img src="path/to/pine.jpg" alt="Pine Tree" width="200px"/>  
 
 **Scientific Name:** *Pinus*  
 
