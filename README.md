@@ -243,9 +243,9 @@ Large tropical hardwood tree, used in construction and furniture making.
 The image classification model for tree species was trained using the following configuration:
 
 - **Epochs:** 50 ⏱️  
-- **Batch Size:** 32 📦  
+- **Batch Size:** 16 📦  
 - **Learning Rate:** 0.001 ⚡  
-- **Number of Images per Class:** 200 🖼️  
+- **Number of Images per Class:** 250 🖼️  
 
 > Adjust numbers to match your actual dataset and training parameters.
 
@@ -264,7 +264,6 @@ The model was evaluated to measure its performance across all tree species.
 **Overall Model Accuracy:**  
 - Accuracy: 92% ✅  
 
-> Replace images and metrics with your actual evaluation results.
 
 ---
 
@@ -282,13 +281,3 @@ Sample predictions from the testing dataset are shown below:
 > Include 10 screenshots from the Preview section.
 
 ---
-
-## 📜 License
-This project is licensed under the MIT License.  
-
----
-
-## 🙏 Acknowledgements
-- Dataset source: [Provide dataset source if applicable]  
-- Frameworks used: TensorFlow, PyTorch, or Keras (replace with yours)  
-- Inspired by botanical image recognition research.
