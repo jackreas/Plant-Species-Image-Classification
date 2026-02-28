@@ -247,7 +247,6 @@ The image classification model for tree species was trained using the following 
 - **Learning Rate:** 0.001 ⚡  
 - **Number of Images per Class:** 250 🖼️  
 
-> Adjust numbers to match your actual dataset and training parameters.
 
 ---
 
@@ -277,7 +276,5 @@ Sample predictions from the testing dataset are shown below:
 | <img src="path/to/test_image2.jpg" alt="Test 2" width="150px"/> | 🌳 Oak Tree |
 | <img src="path/to/test_image3.jpg" alt="Test 3" width="150px"/> | 🫒 Olive Tree |
 | ... | ... |
-
-> Include 10 screenshots from the Preview section.
 
 ---
