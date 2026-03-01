@@ -294,9 +294,57 @@ Sample predictions from the testing dataset are shown below:
 
 | Test Image | Predicted Class |
 |------------|----------------|
-| <img src="path/to/test_image1.jpg" alt="Test 1" width="150px"/> | 🌲 Pine Tree |
-| <img src="path/to/test_image2.jpg" alt="Test 2" width="150px"/> | 🌳 Oak Tree |
-| <img src="path/to/test_image3.jpg" alt="Test 3" width="150px"/> | 🫒 Olive Tree |
-| ... | ... |
+| <img width="329" height="584" alt="image" src="https://github.com/user-attachments/assets/224d58a4-cd9a-4718-99af-cabea33e3259" />| 🌲 Pine Tree |
+<img width="238" height="493" alt="image" src="https://github.com/user-attachments/assets/7a779caa-aef1-43cf-92d2-8c4768633a01" />  | 🌳 Oak Tree |
+|<img width="250" height="551" alt="image" src="https://github.com/user-attachments/assets/fd2a8387-4fbf-4126-a941-4d6fbf97f994" /> | 🫒 Olive Tree |
+| <img width="235" height="498" alt="image" src="https://github.com/user-attachments/assets/71dbb2d7-8da6-40cc-a2e1-67150803a7f4" />| 🌿 Willow Tree |
+| <img width="234" height="522" alt="image" src="https://github.com/user-attachments/assets/69182eb5-f7c5-4f02-b7b5-771a83e1884a" />| 🥥 Brazil Nut Tree |
+| <img width="234" height="512" alt="image" src="https://github.com/user-attachments/assets/d15fe9b2-60ab-4a82-82b3-bf6c870b4cac" />| 🌰 Hickory Tree |
+| <img width="250" height="526" alt="image" src="https://github.com/user-attachments/assets/d82a08af-caaa-4975-ba9b-667bb065b2b1" />| 🍐 Pear Tree |
+| <img width="154" height="446" alt="image" src="https://github.com/user-attachments/assets/24e4136a-e771-4985-bcea-c65414a14f46" />| 🍎 Pomegranate Tree |
+| <img width="173" height="461" alt="image" src="https://github.com/user-attachments/assets/44d15107-f7eb-4074-a481-270b4f8cf5ec" />| 🌳 Balete Tree |
+| <img width="159" height="472" alt="image" src="https://github.com/user-attachments/assets/648903f8-ce8b-4caa-abc6-84e1ee5a2fe4" />| 🌊 Bitaog Tree |
 
 ---
+## Model Training Reflection 🌳
+
+### 1. How did the number of images per class affect your model’s accuracy?
+
+Answer: 
+Increasing the number of images per class improved the model’s accuracy. When fewer images were used, the model produced more incorrect predictions. After increasing the dataset to about 250 images per class, the model became more accurate and stable because it learned more variations of each tree species.
+
+---
+
+### 2. Which plant species were most commonly misclassified and why?
+
+Answer:
+The most commonly misclassified species were Pine Tree and Hemlock Tree, as well as Oak Tree and Hickory Tree. These trees have similar leaf patterns and shapes, which made them difficult for the model to distinguish.
+
+Philippine trees such as Lawa-an Tree and Kalantas Tree were also sometimes misclassified because of limited training images and similar tree structures.
+
+---
+
+### 3. How did changing the epochs, batch size, or learning rate affect the training results?
+
+Answer: 
+Changing the training parameters affected the model performance.
+
+Increasing the epochs improved accuracy up to a certain point, but too many epochs caused overfitting. Smaller batch sizes made training more stable, while larger batch sizes made training faster. A moderate learning rate produced the best results.
+
+---
+
+### 4. What challenges did you encounter during dataset collection and labeling?
+
+Answer: 
+Several challenges were encountered during dataset collection.
+
+Some downloaded images were duplicates or low quality. Some images showed only leaves instead of the full tree. There were also incorrect images for some tree species. In addition, some websites blocked image downloads, which slowed down the collection process.
+
+---
+
+### 5. If you were to improve your model, what specific changes would you make and why?
+
+Answer: 
+To improve the model, I would collect more images for each tree species and improve the dataset quality.
+
+I would also apply data augmentation and test different model settings to increase accuracy and make the model more reliable.
